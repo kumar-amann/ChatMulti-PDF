@@ -54,7 +54,7 @@ def get_conversational_chain():
     Answer:
     """
 
-    model = ChatGoogleGenerativeAI(model="gemini-1.0-pro",
+    model = ChatGoogleGenerativeAI(model="gemini-1.5-pro",
                                    client=genai,
                                    temperature=0.3,
                                    )
